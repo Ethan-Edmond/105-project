@@ -1,3 +1,9 @@
+body {
+    background: url('../img/tiger.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 section {
 	width: 800px;
 	margin: 100px auto;
@@ -5,12 +11,16 @@ section {
 section h1,
 section p {
 	text-align: center;
-	color: #454545;
+	color: #999900;
 }
 section h1 {
-	font: 32px 'Open Sans';
+    margin: 0px 100px 70px 100px;
+	font: 32px 'Shrikhand', cursive;
 	font-weight: bold;
+  background: rgba(0, 0, 0, 0.7);
 }
 section p {
-	font: 16px 'Open Sans';
+    margin: 0px 200px;
+	font: 16px 'Pridi', serif;
+  background: rgba(0, 0, 0, 0.7);
 }
